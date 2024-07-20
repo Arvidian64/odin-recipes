@@ -15,6 +15,8 @@ div {
   h1 {
     font-size: 6rem;
     color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline pink;
   }
 
   h3 {
@@ -32,4 +34,19 @@ div {
     color: rgb(255, 213, 219);
     font-size: x-large;
   }
+
+  a {
+    color: rgb(162, 255, 255);
+  }
+
+  a:hover {
+    background-color: rgb(109, 0, 0);
+  }
+
+  #recipes {
+    display: grid;
+    grid-auto-rows: auto;
+    row-gap: 1rem;
+  }
+
   
